@@ -29,7 +29,7 @@ const senderKeys: KeyInfo = {
 const assetID = "Replace_with_Asset_ID"; // the transaction ID is used as asset ID
 const friendsAddress = "Replace_with_Receviver_Address"; // address format is Bech32
 // ============ Main Part of Script ===================
-const step: number = 7; // Values can be 4,6,7
+const step: number = 0; // Values can be 4,6,7
 switch (step) {
   case 4:
     console.log("Running Step 4 Code");
